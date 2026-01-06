@@ -30,6 +30,21 @@ e integrações com plataformas de e-commerce.
 
 ---
 
+### 🔥 Prioridade: Alta
+
+#### 1️⃣ Ajustar as tags da Reforma Tributária (IBS e CBS)
+- **Tipo:** Feature
+- **Usuário:** Lojista
+- **Objetivo:** Adequar o ERP para as novas normas fiscais
+- **Valor de Negócio:** Obrigações fiscais atualizadas no ERP
+- **Status:** Em análise
+
+**Critérios de Aceite:**
+- No XML, adicionar as tags IBS e CBS de acordo com a norma técnica da SEFAZ
+- Autorizar a NF-e na SEFAZ
+
+---
+
 #### 2️⃣ Correção de divergência de estoque
 - **Tipo:** Bug
 - **Usuário:** Lojista
