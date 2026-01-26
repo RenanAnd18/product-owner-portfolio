@@ -108,7 +108,6 @@ Quantidade de itens entregues em um determinado período.
 * Jira
 * Azure DevOps
 * Trello + Power-Ups
-* Kanbanize
 
 ## 🛠️ Exemplo do meu dia a dia
 
