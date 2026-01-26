@@ -1,0 +1,119 @@
+# 📊 Métricas Ágeis – Visão Prática para Produto
+
+Este repositório apresenta **métricas ágeis essenciais** utilizadas em contextos de **Produto, Scrum e Kanban**, com foco em **entrega de valor ao cliente** e **melhoria contínua**.
+
+---
+
+## 🎯 Objetivo
+
+Demonstrar conhecimento prático sobre métricas de fluxo, explicando:
+
+* O que cada métrica mede
+* Por que ela é importante
+* Como pode ser usada no dia a dia de um **Product Owner / Product Manager**
+
+---
+
+## ⏱️ Customer Lead Time
+
+**Definição:**
+Tempo total que o **cliente espera**, desde a solicitação até a entrega do valor em produção.
+
+**Fórmula:**
+`Data da entrega - Data da solicitação`
+
+**Por que é importante:**
+
+* Mede a experiência do cliente
+* Impacta diretamente a satisfação
+* Ajuda a identificar gargalos antes do desenvolvimento
+
+**Exemplo prático do meu dia a dia:**
+
+* Solicitação do cliente na ferramenta Desk Manager: 01/03
+* Feature em produção: 10/03
+  ➡️ Customer Lead Time = **9 dias** (assumindo que o chamado entrou no desk e depois foi para o backlog do time de desenvolvimento)
+
+---
+
+## 🔁 Lead Time
+
+**Definição:**
+Tempo entre o **início do trabalho** em um item e sua entrega.
+
+**Fórmula:**
+`Data de início do trabalho - Data da entrega`
+
+**Uso comum:**
+
+* Avaliar eficiência do fluxo
+* Comparar performance entre períodos
+
+**Exemplo prático do meu dia a dia:**
+
+* Quando alteramos para o status do item Approved ou Em Andamento no backlog (o desenvolvedor começa a atuar): 01/03
+* Feature em produção ( depois de passar por correção, testes e homologação): 10/03
+  ➡️ Customer Lead Time = **9 dias**
+
+---
+
+## ⚙️ Cycle Time
+
+**Definição:**
+Tempo em que o item está **ativamente em desenvolvimento**.
+
+**Fórmula:**
+`Data de início do desenvolvimento - Data de término do desenvolvimento`
+
+**Por que acompanhar:**
+
+* Identificar gargalos no time
+* Melhorar previsibilidade
+
+**Importante:**
+
+* Não considerar o tempo parado
+
+---
+
+## 📦 Throughput
+
+**Definição:**
+Quantidade de itens entregues em um determinado período.
+
+**Exemplo:**
+
+* 12 histórias entregues em 2 semanas
+
+---
+
+## 🧠 Como essas métricas ajudam um PO
+
+* Melhoram a tomada de decisão
+* Ajudam a priorizar backlog
+* Criam transparência com stakeholders
+* Aumentam previsibilidade de entregas
+
+---
+
+## 🛠️ Ferramentas onde podem ser medidas
+
+* Jira
+* Azure DevOps
+* Trello + Power-Ups
+* Kanbanize
+
+## 🛠️ Exemplo do meu dia a dia
+
+* No Azure devops fiz uma Querie onde traz um relatório de itens entregues por Sprint
+* Nele consigo visualizar gráficos e tarefas entregues  de cada desenvolvedor
+
+---
+
+## 📌 Observação Importante
+
+As métricas **não devem ser usadas para controle de pessoas**, mas sim para **melhoria de processos**.
+
+---
+
+📎 *Este repositório faz parte do meu portfólio profissional na área de Produto.*
