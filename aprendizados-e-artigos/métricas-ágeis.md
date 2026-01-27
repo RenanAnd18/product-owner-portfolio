@@ -70,6 +70,10 @@ Tempo em que o item está **ativamente em desenvolvimento**.
 * Identificar gargalos no time
 * Melhorar previsibilidade
 
+**Exemplo prático do meu dia a dia:**
+
+* Quando a tarefa está na coluna In Progress no Azure Devops;
+
 **Importante:**
 
 * Não considerar o tempo parado
@@ -78,7 +82,7 @@ Tempo em que o item está **ativamente em desenvolvimento**.
 
 Solicitação ──[ fila / espera ]── Início do trabalho ──[ trabalho ativo ]── Entrega
                      ↑ Lead Time começa aqui
-                                      ↑ Cycle Time começa aqui
+                                                            ↑ Cycle Time começa aqui
 
 
 ---
