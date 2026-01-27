@@ -80,11 +80,8 @@ Tempo em que o item está **ativamente em desenvolvimento**.
 
 **Exemplo visual para lembrar:**
 
-Solicitação ──[ fila / espera ]── Início do trabalho ──[ trabalho ativo ]── Entrega
-                     ↑ Lead Time começa aqui
-                                                            ↑ Cycle Time começa aqui
-
-
+Solicitação ──[ fila / espera (Lead Time) ]── Início do trabalho ──[ trabalho ativo (Cycle Time) ]── Entrega
+                
 ---
 
 ## 📦 Throughput
