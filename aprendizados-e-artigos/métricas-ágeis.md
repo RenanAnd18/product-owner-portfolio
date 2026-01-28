@@ -73,6 +73,7 @@ Tempo em que o item está **ativamente em desenvolvimento**.
 **Exemplo prático do meu dia a dia:**
 
 * Quando a tarefa está na coluna In Progress no Azure Devops;
+* Termina quando está homologado
 
 **Importante:**
 
