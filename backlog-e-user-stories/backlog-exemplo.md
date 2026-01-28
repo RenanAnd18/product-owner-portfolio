@@ -42,6 +42,7 @@ e integrações com plataformas de e-commerce.
 **Critérios de Aceite:**
 - No XML, adicionar as tags IBS e CBS de acordo com a norma técnica da SEFAZ
 - Autorizar a NF-e na SEFAZ
+- Validar se os impostos são destacados na NF-e de Venda e Devolução
 
 ---
 
