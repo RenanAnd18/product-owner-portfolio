@@ -1,3 +1,33 @@
+### User Story - Estrutura
+Como...
+Quero...
+Para...
+
+### INVEST – Checklist de Qualidade da User Story
+
+Uma boa User Story deve seguir o conceito **INVEST**, garantindo que ela seja clara, útil e possível de ser desenvolvida e testada.
+
+- **I – Independente**  
+  A User Story deve poder ser desenvolvida de forma isolada, sem depender diretamente de outra história.
+
+- **N – Negociável**  
+  A história não é um contrato fechado. Ela pode (e deve) ser discutida entre PO, QA e Desenvolvimento.
+
+- **V – Valiosa**  
+  Deve gerar valor claro para o usuário ou para o negócio.  
+  Se não entrega valor, provavelmente é uma tarefa técnica.
+
+- **E – Estimável**  
+  O time deve conseguir estimar o esforço necessário para desenvolvê-la.
+
+- **S – Small (Pequena)**  
+  A história deve ser pequena o suficiente para ser concluída dentro de uma sprint.
+
+- **T – Testável**  
+  Deve ser possível validar se a User Story foi concluída corretamente por meio de testes ou critérios de aceite.
+
+---
+
 ### User Story – Atualização de Status de Pedido
 
 Como lojista,
