@@ -21,7 +21,7 @@ Uma boa User Story deve seguir o conceito **INVEST**, garantindo que ela seja cl
   O time deve conseguir estimar o esforço necessário para desenvolvê-la.
 
 - **S – Small (Pequena)**  
-  A história deve ser pequena o suficiente para ser concluída dentro de uma sprint.
+  A história deve ser pequena o suficiente para ser concluída dentro de uma sprint (aqui entra o fatiamento).
 
 - **T – Testável**  
   Deve ser possível validar se a User Story foi concluída corretamente por meio de testes ou critérios de aceite.
