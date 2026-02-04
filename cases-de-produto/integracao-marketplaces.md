@@ -67,3 +67,13 @@ A nota fiscal gerada fica vinculada ao pedido original, garantindo rastreabilida
 ## Aprendizados
 A integração com marketplaces reforça o papel do ERP como um **hub central de gestão**, conectando vendas, faturamento e obrigações fiscais em um único fluxo. A automação do processo permite que o negócio cresça sem aumento proporcional de complexidade operacional.
 
+Amazon   Mercado Livre   Shopee
+   \          |            /
+    \         |           /
+        HUB de Integração
+   (pedidos, regras, filas)
+              |
+              ↓
+             ERP
+
+
