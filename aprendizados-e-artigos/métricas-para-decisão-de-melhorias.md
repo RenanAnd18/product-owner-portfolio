@@ -156,17 +156,115 @@ Se a resposta for:
 
 ---
 
-# 🏁 Conclusão
+# 🧩 CASE REAL – Decisão de NÃO Implementar uma Melhoria
 
-Um Product Owner de ERP não decide baseado em opinião, mas em:
+## 📌 Contexto
 
-- 📊 Dados
-- 🎯 Estratégia
-- ⚖ Risco
-- 💰 Impacto financeiro
-- 🚀 Eficiência operacional
+Um cliente solicitou a criação de um novo relatório onde fosse possível visualizar:
 
-A maturidade na decisão está em equilibrar **valor gerado vs. esforço investido**, garantindo que o sistema evolua sem comprometer estabilidade e compliance fiscal.
+- A última venda realizada para um determinado cliente  
+- Filtro por estado (ex: MG)  
+- Consulta individual por cliente específico  
+
+À primeira vista, parecia uma melhoria simples e útil.
+
+---
+
+## 🔍 Análise Baseada em Métricas
+
+### 1️⃣ Problema Real
+
+Ao aprofundar a conversa com o cliente, identificamos que a necessidade real era:
+
+> Saber a última NF-e emitida para determinado cliente ou para clientes de um estado específico.
+
+Não era necessariamente um novo relatório — era uma necessidade de consulta.
+
+---
+
+### 2️⃣ Adoção e Alcance (Reach)
+
+- Solicitação pontual (1 cliente)
+- Nenhuma recorrência no suporte
+- Não validado como dor sistêmica
+
+Baixo alcance.
+
+---
+
+### 3️⃣ Impacto no Negócio
+
+- Não gerava aumento de faturamento
+- Não reduzia risco fiscal
+- Não reduzia tempo operacional
+- Não impactava o fluxo principal (pedido → CD → faturamento)
+
+Baixo impacto estratégico.
+
+---
+
+### 4️⃣ Esforço do Time (Effort)
+
+Mesmo sendo "apenas um relatório", envolveria:
+
+- Especificação
+- Desenvolvimento
+- Testes
+- Deploy
+- Manutenção futura
+
+Ou seja, custo recorrente para uma dor não validada.
+
+---
+
+## 🧠 Descoberta Importante
+
+Já existia no sistema o relatório de:
+
+📄 **Lista de NF-es emitidas por período**
+
+Esse relatório já possuía:
+
+- Filtro por estado (UF)
+- Filtro por cliente
+- Filtro por período
+- Ordenação por data de emissão
+
+Bastava ordenar por data decrescente para identificar a última venda.
+
+---
+
+## 🎯 Decisão
+
+Com base nas métricas:
+
+- Baixo alcance  
+- Baixo impacto  
+- Esforço moderado  
+- Existência de solução alternativa  
+
+➡ Decisão: **Não implementar nova melhoria**
+
+Em vez disso:
+
+✔ Orientamos o cliente sobre como utilizar o relatório já existente  
+✔ Evitamos aumento de complexidade no sistema  
+✔ Preservamos capacidade do time para entregas estratégicas  
+
+---
+
+# 🏁 Aprendizado como P.O
+
+Nem toda solicitação deve virar backlog.
+
+O papel do Product Owner é:
+
+- Investigar a real necessidade
+- Evitar redundância funcional
+- Proteger o foco do produto
+- Tomar decisões baseadas em valor
+
+Nesse caso, dizer **"não" foi uma decisão estratégica**, sustentada por dados e visão de produto.
 
 ---
 
