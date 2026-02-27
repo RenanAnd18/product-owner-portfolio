@@ -66,7 +66,7 @@ $env:AZURE_DEVOPS_PAT = "SEU_PAT_AQUI"
 > Ou seja, primeiro vem o comando (`npx @azure-devops/mcp onclickbr`), **depois** as variáveis `-e`.
 
 ```powershell
-claude mcp add azure-devops npx @azure-devops/mcp onclickbr   -e AZURE_DEVOPS_ORG_URL=https://dev.azure.com/onclickbr   -e AZURE_DEVOPS_AUTH_METHOD=pat   -e AZURE_DEVOPS_PAT=$env:AZURE_DEVOPS_PAT
+claude mcp add azure-devops npx @azure-devops/mcp nome-organizacao   -e AZURE_DEVOPS_ORG_URL=https://dev.azure.com/nome-organizacao   -e AZURE_DEVOPS_AUTH_METHOD=pat   -e AZURE_DEVOPS_PAT=$env:AZURE_DEVOPS_PAT
 ```
 
 Notas:
@@ -89,7 +89,7 @@ Resultados esperados:
 ## Troubleshooting rápido
 - **unknown option '-y'**: ocorre quando o `-y` do `npx` é interpretado pelo `claude`. Solução: **não usar `-y`** ou usar o comando no formato do passo 4 (ordem correta).
 - **missing required argument 'commandOrUrl'**: a sua versão do CLI exige o **comando** logo após o nome do servidor; siga o passo 4.
-- **Failed to connect**: verifique URL da org (`https://dev.azure.com/onclickbr`), método `pat`, e o valor de `AZURE_DEVOPS_PAT`. Confira também os escopos do PAT e validade.
+- **Failed to connect**: verifique URL da org (`https://dev.azure.com/nome-organizacao`), método `pat`, e o valor de `AZURE_DEVOPS_PAT`. Confira também os escopos do PAT e validade.
 - Logs: `claude mcp logs azure-devops`.
 
 ---
