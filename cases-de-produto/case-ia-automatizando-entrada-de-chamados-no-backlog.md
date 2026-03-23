@@ -1,4 +1,3 @@
-# case-ia-automatizando-entrada-de-chamados-no-backlog
 
 ## 🚀 Case: Automatizando a Entrada de Chamados no Backlog com IA (Claude Code)
 
